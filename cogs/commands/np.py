@@ -37,7 +37,7 @@ class TimeSelect(Select):
             SelectOption(label="1 Month", description="No prefix for 1 Month", value="1m"),
             SelectOption(label="3 Months", description="No prefix for 3 Months.", value="3m"),
             SelectOption(label="6 Months", description="No prefix for 6 Months.", value="6m"),
-            SelectOption(label="1 Year", description="No prefix for 1 Year.", value="1y"),
+            SelectOption(label="1 Year", description="No prefix for 1 Year.", value="1y"), 
             SelectOption(label="3 Years", description="No prefix for 3 Years.", value="3y"),
             SelectOption(label="Lifetime", description="No prefix Permanently.", value="lifetime"),
         ]
@@ -209,10 +209,10 @@ class NoPrefix(commands.Cog):
                         )
                         embed.set_author(name="No Prefix Expired", icon_url=user.avatar.url if user.avatar else user.default_avatar.url)
                         
-                        embed.set_footer(text="Axon X  - No Prefix, Join support to regain access.")
+                        embed.set_footer(text="Axter - No Prefix, Join support to regain access.")
                         support = Button(label='Support',
                     style=discord.ButtonStyle.link,
-                    url=f'https://discord.gg/codexdev')
+                    url=f'https://discord.gg/RsgmAHTqff')
                         view = View()
                         view.add_item(support)
 
