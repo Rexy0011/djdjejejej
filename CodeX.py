@@ -99,7 +99,7 @@ async def on_command_completion(context: commands.Context) -> None:
                     inline=False)
 
                 embed.timestamp = discord.utils.utcnow()
-                embed.set_footer(text="Quantum X Development™ ❤️",
+                embed.set_footer(text="Axter Development™ ❤️",
                                  icon_url=client.user.display_avatar.url)
                 await webhook.send(embed=embed)
             except Exception as e:
